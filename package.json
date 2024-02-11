@@ -1,0 +1,40 @@
+{
+  "name": "reactflow-better-bezier-edge",
+  "version": "1.0.3",
+  "description": "A ReactFlow Bezier Edge but with Offset",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "pub": "npm run build & npm publish",
+    "pub@beta": "npm run build & npm publish --tag beta"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soranoo/reactflow-better-bezier-edge.git"
+  },
+  "homepage": "https://github.com/soranoo/reactflow-better-bezier-edge#readme",
+  "keywords": [
+    "reactflow",
+    "bezier-curve",
+    "svg",
+    "react",
+    "typescript",
+    "graph",
+    "flow",
+    "flowchart",
+    "edge"
+  ],
+  "author": "soranoo (Freeman)",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17",
+    "reactflow": ">=11",
+    "typescript": ">=4.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55"
+  }
+}
